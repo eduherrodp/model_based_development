@@ -1,0 +1,14 @@
+package Duck;
+
+// This is a subclass from Duck class and contains the display method and constructor
+public class DecoyDuck extends Duck {
+    // This is a constructor that takes two arguments
+    // and assigns them to the instance variables fb and qb
+    public DecoyDuck(FlyBehavior fb, QuackBehavior qb) {
+        super(fb, qb);
+    }
+    // This is a method that displays the duck
+    public void display() {
+        System.out.println("I'm a simple Decoy duck");
+    }
+}
