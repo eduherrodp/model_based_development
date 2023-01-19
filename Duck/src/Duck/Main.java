@@ -1,3 +1,8 @@
+// Program: Duck
+// Programmer: José Eduardo Hernández Rodríguez
+// Date: 18/01/2023
+// Description: This program is a simulation of a duck that can fly and quack
+
 package Duck;
 
 // Main class that contains the main method, performs the duck simulation
