@@ -28,6 +28,7 @@ public class Main {
         // and passing the FlyNoWay and MuteQuack objects as arguments
         Duck decoy = new DecoyDuck(new FlyNoWay(), new MuteQuack());
 
+
         // Calling the showDuck method
         decoy.showDuck();
     }
