@@ -13,7 +13,7 @@ public class Main {
         Cliente cliente1 = new Cliente("Eduardo");
         Cliente cliente2 = new Cliente("Atenas");
 
-        // Suscripcion de los clientes
+        // Suscripción de los clientes
         // Eduardo se suscribe a los cambios de precio del televisor
         tienda.suscribir(cliente1, producto1);
         // Atenas se suscribe a los cambios de precio de la nevera y del televisor
