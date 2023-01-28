@@ -1,4 +1,4 @@
-package Duck;
+package duck.behavior;
 
 public class Squeak implements QuackBehavior {
     // This is a class that implements the interface QuackBehavior

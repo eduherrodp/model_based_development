@@ -1,4 +1,7 @@
-package Duck;
+package duck;
+
+import duck.behavior.FlyBehavior;
+import duck.behavior.QuackBehavior;
 
 // Implementing the class Duck
 // showDuck is a method that display, performFly and performQuack and swim methods are called

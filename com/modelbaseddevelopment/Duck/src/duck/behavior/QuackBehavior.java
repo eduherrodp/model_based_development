@@ -1,6 +1,6 @@
-package Duck;
+package duck.behavior;
 
 public interface QuackBehavior {
     // This is an interface superclass that defines the method quack
-    public void quack();
+    void quack();
 }

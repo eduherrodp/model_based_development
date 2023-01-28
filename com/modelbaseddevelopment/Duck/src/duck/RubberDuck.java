@@ -1,4 +1,7 @@
-package Duck;
+package duck;
+
+import duck.behavior.FlyBehavior;
+import duck.behavior.QuackBehavior;
 
 public class RubberDuck extends Duck {
     // This is a constructor that takes two arguments

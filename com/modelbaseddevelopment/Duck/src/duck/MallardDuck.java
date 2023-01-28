@@ -1,4 +1,7 @@
-package Duck;
+package duck;
+
+import duck.behavior.FlyBehavior;
+import duck.behavior.QuackBehavior;
 
 // This is a subclass from Duck class
 // This class is used to implement the MallardDuck and contains the display method

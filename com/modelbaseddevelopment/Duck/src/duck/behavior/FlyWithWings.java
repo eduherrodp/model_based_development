@@ -1,4 +1,4 @@
-package Duck;
+package duck.behavior;
 
 public class FlyWithWings implements FlyBehavior {
     // This is a class that implements the interface FlyBehavior
