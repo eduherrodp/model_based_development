@@ -1,4 +1,4 @@
-package Tienda;
+package tienda;
 
 // Función principal
 public class Main {

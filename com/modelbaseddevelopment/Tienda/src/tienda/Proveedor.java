@@ -1,4 +1,4 @@
-package Tienda;
+package tienda;
 
 interface Proveedor {
     void suscribir(Suscriptor suscriptor, Producto producto);

@@ -1,4 +1,4 @@
-package Tienda;
+package tienda;
 
 class ProductoImpl implements Producto {
     private String nombre;

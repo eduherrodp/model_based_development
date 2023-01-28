@@ -1,4 +1,4 @@
-package Tienda;
+package tienda;
 
 class Cliente implements Suscriptor {
     private String nombre;

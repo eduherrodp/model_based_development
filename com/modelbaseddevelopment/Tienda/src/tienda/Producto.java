@@ -1,4 +1,4 @@
-package Tienda;
+package tienda;
 interface Producto {
     String getNombre();
     void setNombre(String nombre);
