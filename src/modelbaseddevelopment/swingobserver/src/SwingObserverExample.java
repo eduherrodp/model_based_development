@@ -1,9 +1,8 @@
-package modelbaseddevelopment.swingobserverexample.SwingObserverExample.src;
+package modelbaseddevelopment.swingobserver.src;
 
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
-import javax.swing.event.*;
 
 public class SwingObserverExample {
     JFrame frame;
@@ -28,13 +27,13 @@ public class SwingObserverExample {
         frame.setVisible(true);
     }
 
-    class AngelListener implements ActionListener {
+    static class AngelListener implements ActionListener {
         public void actionPerformed(ActionEvent event) {
             System.out.println("Don't do it, you might regret it!");
         }
     }
 
-    class DevilListener implements ActionListener {
+    static class DevilListener implements ActionListener {
         public void actionPerformed(ActionEvent event) {
             System.out.println("Come on, do it!");
         }
