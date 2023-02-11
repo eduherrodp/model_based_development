@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class main
+
+interface FoxMachine {
+    -price: int
+    +discount(): double
+}
+class Product  {
+    -name: string
+    -description: string
+    -price: double
+}
+class DiscountFive implements FoxMachine{
+    discount(price): double
+}
+class DiscountFixed implements FoxMachine{
+    discount(price): double
+}
+class NoDiscount implements FoxMachine{
+    discount(price): double
+}
+class FrequentDiscount implements FoxMachine{
+    discount(price): double
+}
+
+main --> Product:use
+Product -right-> FoxMachine
+@enduml
