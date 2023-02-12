@@ -11,7 +11,7 @@ This repository contains the code for the assignment of the course Model Based D
 - [x] [StarBuzz v2](https://github.com/eduherrodp/model_based_development/tree/main/src/modelbaseddevelopment/starbuzz)
 - [x] [Auction](https://github.com/eduherrodp/model_based_development/tree/main/src/modelbaseddevelopment/auction?classId=940ec678-e727-47d1-a63e-1c6a479ccaa5&assignmentId=486e6469-b31e-4f6a-bc28-d0b965744e98&submissionId=843d6a90-1780-68c0-7d7a-781d2132bb21)
 - [X] [FoxMachine](https://github.com/eduherrodp/model_based_development/tree/main/src/modelbaseddevelopment/foxmachine?classId=940ec678-e727-47d1-a63e-1c6a479ccaa5&assignmentId=486e6469-b31e-4f6a-bc28-d0b965744e98&submissionId=843d6a90-1780-68c0-7d7a-781d2132bb21)
-- [X] [Window] (https://github.com/eduherrodp/model_based_development/tree/main/src/modelbaseddevelopment/window)
+- [X] [Window](https://github.com/eduherrodp/model_based_development/tree/main/src/modelbaseddevelopment/window)
 
 ## Duck Simulator  
 
