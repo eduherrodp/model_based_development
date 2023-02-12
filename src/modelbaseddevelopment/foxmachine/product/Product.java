@@ -1,4 +1,4 @@
-package modelbaseddevelopment.foxmachine;
+package modelbaseddevelopment.foxmachine.product;
 
 import modelbaseddevelopment.foxmachine.discount.Discount;
 

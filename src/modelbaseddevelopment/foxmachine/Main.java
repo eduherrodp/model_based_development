@@ -1,6 +1,7 @@
 package modelbaseddevelopment.foxmachine;
 
 import modelbaseddevelopment.foxmachine.discount.*;
+import modelbaseddevelopment.foxmachine.product.Product;
 
 public class Main {
 

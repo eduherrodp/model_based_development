@@ -3,28 +3,32 @@
 
 class main
 
-interface FoxMachine {
-    -price: int
-    +discount(): double
+interface Discount {
+    +discount(double price): double
 }
-class Product  {
-    -name: string
-    -description: string
-    -price: double
-}
-class DiscountFive implements FoxMachine{
+class DiscountFive implements Discount{
     discount(price): double
 }
-class DiscountFixed implements FoxMachine{
+class DiscountFixed implements Discount{
     discount(price): double
 }
-class NoDiscount implements FoxMachine{
+class NoDiscount implements Discount{
     discount(price): double
 }
-class FrequentDiscount implements FoxMachine{
+class FrequentDiscount implements Discount{
     discount(price): double
 }
 
+class Product  {
+    discount: Discount
+    - name: String
+    - price: double
+    - description: String
+    - discountPrice: double
+    + Product(name: String, price: double, description: String)
+    // Setters and Getters()
+}
+
 main --> Product:use
-Product -right-> FoxMachine
+Product -right-> Discount
 @enduml
