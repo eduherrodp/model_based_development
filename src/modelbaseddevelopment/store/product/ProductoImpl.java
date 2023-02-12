@@ -18,7 +18,8 @@ public class ProductoImpl implements Producto {
     }
 
     @Override
-    public String getNombre() {
+    public String
+    getNombre() {
         return nombre;
     }
 
