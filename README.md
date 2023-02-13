@@ -6,7 +6,7 @@ This repository contains the code for the assignment of the course Model Based D
 
 - [x] [Duck Simulator](https://github.com/eduherrodp/model_based_development/tree/main/src/modelbaseddevelopment/ducksimulator)
 - [x] [Store](https://github.com/eduherrodp/model_based_development/tree/main/src/modelbaseddevelopment/store)
-- [ ] [Weater Station]()
+- [in process] [Weater Station]()
 - [x] [Swing Observer](https://github.com/eduherrodp/model_based_development/tree/main/src/modelbaseddevelopment/swingobserver)
 - [x] [StarBuzz v2](https://github.com/eduherrodp/model_based_development/tree/main/src/modelbaseddevelopment/starbuzz)
 - [x] [Auction](https://github.com/eduherrodp/model_based_development/tree/main/src/modelbaseddevelopment/auction?classId=940ec678-e727-47d1-a63e-1c6a479ccaa5&assignmentId=486e6469-b31e-4f6a-bc28-d0b965744e98&submissionId=843d6a90-1780-68c0-7d7a-781d2132bb21)
@@ -29,15 +29,15 @@ This is a program that simulates a weather station. It has a list of sensors and
 
 Just an example of the observer pattern using swing.
 
-## StarBuzz v1
-
-This is a program that simulates a coffee shop. It has a list of beverages and a list of condiments. The condiments can be added to the beverages. 
-
-The program uses the decorator pattern. 
-
 ## StarBuzz v2
 
 This is exactly the same program as StarBuzz v1 but now implements the size of the beverages: small, medium and large.
+
+## Auction
+
+## FoxMachine
+
+## Window
 
 ## How to run the programs
 
@@ -48,6 +48,3 @@ This is exactly the same program as StarBuzz v1 but now implements the size of t
 ## Contributors
 
 -  [José Eduardo Hernández Rodríguez](https://www.github.com/eduherrodp)
-
-
-
