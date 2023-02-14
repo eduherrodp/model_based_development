@@ -1,28 +1,30 @@
 @startuml
 'https://plantuml.com/class-diagram
 interface Subject {
-    +registerObserver(Observer o)
-    +removeObserver(Observer o)
-    +notifyObservers()
-}
-interface Subscriber {
-    +update()
-
-}
-class Tenderer implements Subscriber{
-    -name: String
-    +update(Subject s): void
-
+    +registerObserver(Tenderer t): void
+    +removeObserver(Tenderer t): void
+    +notifyObservers(): void
 }
 class Product implements Subject{
     -name: String
     -description: String
-    -actualPrice: double
+    -price: double
     -available: boolean
-    -observers: List<Tenderer>
-    +registerObserver(Observer o): void
-    +removeObserver(Observer o): void
-    +notifyObservers(): void
+    -tenderers: List<Tenderer>
+    +Product(name: String, description: String, price: double, available: boolean)
+    +registerTenderer(Tenderer t)
+    +removeTenderer(Tenderer t)
+    +notifyTenderer()
+    // Setters and Getters
+}
+interface Subscriber {
+    +update(): void
+}
+class Tenderer implements Subscriber{
+    -name: String
+    +Tenderer(String name)
+    +update(Subject subject)
+    +offer(Product product, double price)
 }
 
 Subject -right-> Subscriber: observers
