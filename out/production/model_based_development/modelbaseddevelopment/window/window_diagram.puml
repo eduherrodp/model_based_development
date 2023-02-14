@@ -1,18 +1,21 @@
 @startuml
 'https://plantuml.com/class-diagram
-
+Main -down-> Window: Creates
 interface Window {
     +display(): void
 }
+class WindowImpl implements Window {
+    -description: String
+    +display(): void
+    +getDescription(): String
+}
 class WindowDecorator {
-    -window: Window
-    +WindowDecorator(window: Window): void
+    #windowToBeDecorated: Window
+    +WindowDecorator(window: windowToBeDecorated)
     +display(): void
 }
 
-class WindowImpl implements Window {
-    +display(): void
-}
+
 WindowDecorator -left-> Window: Decorates
 WindowDecorator -right-|> Window: .
 
