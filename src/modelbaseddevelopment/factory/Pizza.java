@@ -1,11 +1,12 @@
-package modelbaseddevelopment.factory.first_factory;
+package modelbaseddevelopment.factory;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Pizza {
-    String name;
-    List<String> toppings = new ArrayList<>();
+    public String name;
+    // Toppings
+    public List<String> toppings = new ArrayList<>();
     public void prepare() {
         System.out.println("... ");
         System.out.println("Preparing " + name);

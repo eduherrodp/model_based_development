@@ -1,10 +1,11 @@
-package modelbaseddevelopment.factory.first_factory;
+package modelbaseddevelopment.factory.second_factory;
 
 import modelbaseddevelopment.factory.Pizza;
+import modelbaseddevelopment.factory.first_factory.SimplePizzaFactory;
 
-public class PizzaStore {
-    SimplePizzaFactory factory;
-    public PizzaStore(SimplePizzaFactory factory) {
+public class EdPizzaStore {
+    EdSimplePizzaFactory factory;
+    public EdPizzaStore(EdSimplePizzaFactory factory) {
         this.factory = factory;
     }
     public Pizza orderPizza(String type) {

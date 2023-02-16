@@ -1,6 +1,8 @@
 package modelbaseddevelopment.factory.first_factory;
 
-public class SimplePizzaFactory extends Pizza{
+import modelbaseddevelopment.factory.Pizza;
+
+public class SimplePizzaFactory extends Pizza {
     public Pizza createPizza(String type) {
         Pizza pizza;
         switch (type) {
