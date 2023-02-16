@@ -11,9 +11,9 @@ public class Main {
         Pizza pizza1 = store.orderPizza("cheese");
         System.out.println(pizza1);
 
-        // New pizza store with new factory "EdPizzaStore"
-        EdSimplePizzaFactory edFactory = new EdSimplePizzaFactory();
-        EdPizzaStore edStore = new EdPizzaStore(edFactory);
+        // New pizza store with new factory "NYPizzaStore"
+        NYSimplePizzaFactory nyFactory = new NYSimplePizzaFactory();
+        NYPizzaStore edStore = new NYPizzaStore(nyFactory);
         Pizza pizza2 = edStore.orderPizza("pepperoni");
         System.out.println(pizza2);
     }

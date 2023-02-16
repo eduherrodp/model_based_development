@@ -2,8 +2,8 @@ package modelbaseddevelopment.factory.second_factory;
 
 import modelbaseddevelopment.factory.Pizza;
 
-public class EdPepperoniPizza extends Pizza {
-    public EdPepperoniPizza() {
+public class NYPepperoniPizza extends Pizza {
+    public NYPepperoniPizza() {
         name = "Pepperoni Pizza";
         toppings.add("Pepperoni");
         toppings.add("Onion");
