@@ -1,11 +1,12 @@
-package modelbaseddevelopment.adapter;
+package turkeys;
 
-public class TurkeyWannabe implements Duck {
+import turkeys.Turkey;
+
+public class WildTurkey implements Turkey {
     @Override
-    public void quack() {
+    public void gobble() {
         System.out.println("Gobble gobble");
     }
-
     @Override
     public void fly() {
         System.out.println("I'm flying a short distance");

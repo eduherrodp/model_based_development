@@ -1,4 +1,4 @@
-package modelbaseddevelopment.adapter;
+package turkeys;
 
 public interface Turkey {
     void gobble();
