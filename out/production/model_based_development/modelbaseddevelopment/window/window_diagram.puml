@@ -1,0 +1,35 @@
+@startuml
+'https://plantuml.com/class-diagram
+Main -down-> Window: Creates
+interface Window {
+    +display(): void
+}
+class WindowImpl implements Window {
+    -description: String
+    +display(): void
+    +getDescription(): String
+}
+class WindowDecorator {
+    #windowToBeDecorated: Window
+    +WindowDecorator(window: windowToBeDecorated)
+    +display(): void
+}
+
+
+WindowDecorator -left-> Window: Decorates
+WindowDecorator -right-|> Window: .
+
+class HorizontalScroll  extends WindowDecorator {
+    +HorizontalScroll (window: Window): void
+    +display(): void
+}
+class VerticalScroll extends WindowDecorator {
+    +VerticalScroll (window: Window): void
+    +display(): void
+}
+class BorderWindow extends WindowDecorator {
+    +BorderWindow (window: Window): void
+    +display(): void
+}
+
+@enduml

@@ -1,0 +1,34 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class main
+
+interface Discount {
+    +discount(double price): double
+}
+class DiscountFive implements Discount{
+    discount(price): double
+}
+class DiscountFixed implements Discount{
+    discount(price): double
+}
+class NoDiscount implements Discount{
+    discount(price): double
+}
+class FrequentDiscount implements Discount{
+    discount(price): double
+}
+
+class Product  {
+    discount: Discount
+    - name: String
+    - price: double
+    - description: String
+    - discountPrice: double
+    + Product(name: String, price: double, description: String)
+    // Setters and Getters()
+}
+
+main --> Product:use
+Product -right-> Discount
+@enduml
