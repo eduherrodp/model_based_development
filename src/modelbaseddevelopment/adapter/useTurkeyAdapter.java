@@ -1,9 +1,8 @@
-import adapters.DuckAdapter;
-import adapters.TurkeyAdapter;
-import ducks.Duck;
-import ducks.MallardDuck;
-import turkeys.Turkey;
-import turkeys.WildTurkey;
+package modelbaseddevelopment.adapter;
+
+import modelbaseddevelopment.adapter.adapters.*;
+import modelbaseddevelopment.adapter.ducks.*;
+import modelbaseddevelopment.adapter.turkeys.*;
 
 public class useTurkeyAdapter {
     public static void main(String[] args) {

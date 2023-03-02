@@ -1,6 +1,4 @@
-package turkeys;
-
-import turkeys.Turkey;
+package modelbaseddevelopment.adapter.turkeys;
 
 public class WildTurkey implements Turkey {
     @Override

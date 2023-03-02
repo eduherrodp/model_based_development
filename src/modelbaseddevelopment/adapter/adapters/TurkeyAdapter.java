@@ -1,7 +1,7 @@
-package adapters;
+package modelbaseddevelopment.adapter.adapters;
 
-import ducks.Duck;
-import turkeys.Turkey;
+import modelbaseddevelopment.adapter.ducks.Duck;
+import modelbaseddevelopment.adapter.turkeys.Turkey;
 
 public class TurkeyAdapter implements Duck {
     Turkey turkey;

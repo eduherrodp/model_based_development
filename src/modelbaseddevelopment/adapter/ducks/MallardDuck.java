@@ -1,6 +1,4 @@
-package ducks;
-
-import ducks.Duck;
+package modelbaseddevelopment.adapter.ducks;
 
 public class MallardDuck implements Duck {
     @Override

@@ -1,3 +1,5 @@
+package modelbaseddevelopment.enumerator;
+
 import java.util.Enumeration;
 import java.util.Iterator;
 

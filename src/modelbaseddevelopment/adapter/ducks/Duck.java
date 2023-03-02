@@ -1,4 +1,4 @@
-package ducks;
+package modelbaseddevelopment.adapter.ducks;
 
 public interface Duck {
     void quack();
